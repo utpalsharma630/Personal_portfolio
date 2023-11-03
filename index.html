@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="bg-slate-400">
+        <nav class="w-10/12 m-auto py-5 flex justify-between items-center  ">
+            <div class="border-2 pb-1 px-2 pt-0 rounded-full ">
+                <h2 class="text-xl text-lime-300 font-bold  ">UT<span class="text-3xl text-red-300 font-bold hover:text-transparent hover:text-white">P</span>AL</h2>
+            </div>
+            <div class="">
+                <div>
+                    <i id="click" class='bx bx-menu text-3xl right-0 md:hidden block'></i>
+                    <!-- <label id="click" class="btn btn-circle swap swap-rotate text-3xl right-0 md:hidden block">
+  
+                        this hidden checkbox controls the state -->
+                        <!-- <input class="" type="checkbox"/> -->
+                        
+                        <!-- hamburger icon -->
+                        <!-- <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg> -->
+                        
+                        <!-- close icon -->
+                        <!-- <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg> -->
+                        
+                      </label>
+                </div>
+                <div>
+                    <ul class="hidden md:grid   grid-cols-5  gap-5 right-2 text-white text-xl font-medium">
+                        <li class="hover:text-lime-300"><a href="#Home">Home</a></li>
+                        <li class="hover:text-lime-300"><a href="#About">About</a></li>
+                        <li class="hover:text-lime-300"><a href="#Skills">Skills</a></li>
+                        <li class="hover:text-lime-300"><a href="#projects">Project</a></li>
+                        <li class="hover:text-lime-300"><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+        </nav>
+        <!-- dropdown item-------------- -->
+        <div id="menu" class="w-full  hidden mx-auto top-10 left-5">
+            <ul class=" grid grid-col-5 justify-center  gap-3  text-black bg-red-300 text-xl font-medium">
+                <li class="hover:text-lime-300"><a href="#Home">Home</a></li>
+                <li class="hover:text-lime-300"><a href="#About">About</a></li>
+                <li class="hover:text-lime-300"><a href="#Skills">Skills</a></li>
+                <li class="hover:text-lime-300"><a href="#projects">Project</a></li>
+                <li class="hover:text-lime-300"><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+        
+    </header>
+    <div class="bg-slate-400">
+        <!-- home section -->
+        <section id="Home" class="md:flex items-center  w-10/12 m-auto py-5 justify-between">
+            <div class=" md:w-6/12 py-3">
+                <h2 class="text-3xl text-white leading-tight">HI, MY NAME IS <span class="text-4xl text-lime-300">UTPAL CHANDRA DEB SHARMA</span></h2>
+                <H2 class=" py-5 text-2xl text-white">I AM A <SPAN class="text-lime-300">FRONTEND DEVELOPER</SPAN></H2>
+                <P></P>
+
+            
+            </div>
+            <DIV>
+                <img class="rounded-full w-full m-auto" src="img/utpal.jpg" alt="">
+            </DIV>
+            
+
+        </section>
+    </div>
+    
+    
+    
+    <main>
+        
+        <!-- about -->
+        <section id="About" class=" my-7">
+            <h2 class="text-4xl mt-12 font-semibold text-center py-3">About Me</h2>
+            <div class="md:flex items-center  w-10/12 m-auto py-5 justify-between">
+                <div class="">
+                    <img class="w-1/2 m-auto my-5 rounded-lg" src="img/utpal.jpg" alt="">
+    
+                </div>
+                <div class="text-justify  md:w-6/12 pt-5 text-2xl">
+                    <p>Hello! I'm Utpal chandra deb sharma, a passionate frontend developer with a creative flair and a deep appreciation for crafting intuitive and visually appealing user interfaces. I thrive on the intersection of technology and design, working diligently to bridge the gap between user expectations and innovative web solutions.</p>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+
+        <section id="Skills" class="w-10/12 m-auto my-16">
+            <h2 class="text-4xl my-12 font-semibold text-center py-3">My Skills</h2>
+            <div class="md:grid grid-cols-4 ">
+                <div class="shadow-2xl rounded-lg w-40 m-auto mb-5 p-5 text-center">
+                    <img class="mt-4 " src="img/html.png" alt="">
+                    <h2 class="pt-3 text-xl font-bold">HTML</h2>
+                </div>
+                <div class="shadow-2xl rounded-lg mb-5 w-40 m-auto p-5 text-center">
+                    <img class="mt-4" src="img/css.png" alt="">
+                    <h2 class="pt-3 text-xl font-bold">CSS</h2>
+                </div>
+                <div class="shadow-2xl rounded-lg mb-5 w-40 m-auto p-5 text-center">
+                    <img class="mt-4" src="img/tailwind.png" alt="">
+                    <h2 class="pt-3 text-xl font-bold">TAILWIND CSS</h2>
+                </div>
+                <div class="shadow-2xl rounded-lg mb-5 w-40 m-auto p-5 text-center">
+                    <img class="mt-4" src="img/js.png" alt="">
+                    <h2 class="pt-6 text-xl font-bold">JAVASCRIPT</h2>
+                </div>
+            </div>
+        </section>
+        <!-- projects -->
+        <section id="projects" class="w-10/12 m-auto my-16">
+            <h2 class="text-4xl font-semibold text-center my-12">My Projects</h2>
+            <div class="md:grid grid-cols-3 gap-5 ">
+                <div class="shadow-2xl mb-5 rounded-lg text-center">
+                    <img class="rounded w-48 mt-5 m-auto items-center" src="img/Etherx.PNG" alt="">
+                    <button class="text-2xl font-semibold text-white  py-2 px-3 bg-lime-500 hover:bg-black rounded-xl my-8"><a href="https://utpalsharma630.github.io/EtherX/">See more</a></button>
+                </div>
+                <div class="shadow-2xl mb-5 rounded-lg text-center">
+                    <img class="rounded w-44 m-auto" src="img/food.PNG" alt="">
+                    <button class="text-2xl font-semibold text-white  py-2 px-3 bg-lime-500 hover:bg-black rounded-xl my-8"><a href="https://utpalsharma630.github.io/food/">See more</a></button>
+                </div>
+                <div class="shadow-2xl mb-5 rounded-lg text-center">
+                    <img class="rounded w-48 m-auto" src="img/bank.png" alt="">
+                    <button class="text-2xl font-semibold text-white  py-2 px-3 bg-lime-500 hover:bg-black rounded-xl my-8"><a href="https://utpalsharma630.github.io/ABC_Functional/">See more</a></button>
+                </div>
+                <div class="shadow-2xl mb-5 rounded-lg text-center">
+                    <img class="rounded w-1/2 m-auto" src="img/bikePNG.PNG" alt="">
+                    <button class="text-2xl font-semibold text-white  py-2 px-3 bg-lime-500 hover:bg-black rounded-xl my-8"><a href="https://utpalsharma630.github.io/Bike-Rider/">See more</a></button>
+                </div>
+                <div class="shadow-2xl mb-5 rounded-lg text-center">
+                    <img class="rounded w-1/2 m-auto" src="img/landing.PNG" alt="">
+                    <button class="text-2xl font-semibold text-white  py-2 px-3 bg-lime-500 hover:bg-black rounded-xl my-8"><a href="https://utpalsharma630.github.io/landingpage-1/">See more</a></button>
+                </div>
+                <div class="shadow-2xl mb-5 rounded-lg text-center">
+                    <img class="rounded w-1/2 m-auto" src="img/service.PNG" alt="">
+                    <button class="text-2xl font-semibold text-white  py-2 px-3 bg-lime-500 hover:bg-black rounded-xl my-8"><a href="https://utpalsharma630.github.io/tailwind-pro01/">See more</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="Contact" class="bg-slate-500">
+        <h2 class="text-4xl font-semibold text-center text-white py-6">Contact me</h2>
+        <div class="w-10/12 m-auto py-10 md:flex items-center justify-between">
+            <div class="my-4 md:w-1/2 m-auto ">
+                <div class="flex items-center gap-1 ">
+                    <i class='bx bx-envelope text-xl mt-1 text-white'></i>
+                    <p class="text-white text-lg">utpalchandrad6@gmail.com</p>
+                </div>
+                <div class="flex items-center gap-1 text-white">
+                    <i class='bx bx-phone-call text-xl mt-1'></i>
+                    <p class="text-white text-lg">+88017740-16630</p>
+                </div>
+                <div class="flex items-center gap-1">
+                    <i class='bx bx-map text-xl mt-1 text-white'></i>
+                    <p class="text-white text-lg">Dinajpur, Rangpur, Bangladesh</p>
+                </div>
+                <div class="flex gap-4 ml-5 my-2 text-2xl">
+                    <a href=""><i class='bx bxl-facebook-circle text-blue-400 bg-white rounded-full'></i></a>
+                    <a href=""><i class='bx bxl-twitter text-blue-500'></i></a>
+                    <a href=""><i class='bx bxl-instagram text-orange-500'></i></a>
+                    <a href=""><i class='bx bxl-linkedin text-white '></i></a>
+                </div>
+                <button class="px-2 py-1 rounded-lg bg-lime-500 text-white text-xl font-semibold hover:bg-black"><a href="img/cv.pdf">Download resume</a></button>
+            </div>
+            <div class="md:w-6/12">
+                <h2 class="text-2xl font-semibold py-2 text-center text-white">Send Message</h2>
+                <div class="grid bg-white px-6 py-4 rounded-lg">
+                    <label for="name">Name:</label>
+                    <input class="border-2 border-black px-2 rounded sm:w-1/2" type="text" placeholder="Enter your name">
+                    <label for="email">Email:</label>
+                    <input class="border-2 border-black px-2 sm:w-1/2 rounded" type="email" placeholder="Enter your email">
+                    <label for="text">Text:</label>
+                    <textarea class="border-2 border-black px-2 rounded" name="Type your Message" id="" cols="30" rows="10" placeholder="Type your Message"></textarea>
+                </div>
+                <button class="px-2 py-1 rounded-lg bg-lime-500 text-white text-xl font-semibold my-3 hover:bg-black"><a href="#">Submit</a>
+                </button>
+            </div>
+        </div>
+        <p class="text-white text-sm text-center pb-3">Copyright @2023 - All Rights Reseverd By Utpal</p>
+    </footer>
+
+    <script src="file.js"></script>
+</body>
+</html>
